@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+
+</head>
+<body>
+<table>
+  <tr>
+    <th><label for="amount">Amount</label></th>
+    <th>Form currency</th>
+    <th>To currency </th>
+
+  </tr>
+  <tr>
+    <td><input type="number" id="amount" /></td>
+    <td>
+      <select id="form">
+        <option value="vnd">
+          vnd
+        </option>
+        <option value="usd">
+          usd
+        </option>
+      </select>
+    </td>
+    <td>
+      <select id="to">
+        <option>
+          vnd
+        </option>
+        <option>
+          usd
+        </option>
+      </select>
+    </td>
+    <td><button onclick="changeMoney()">Convert</button></td>
+  </tr>
+<br/>
+  <label id="result"></label>
+</table>
+</body>
+</html>
+<script src="b6.js"></script>
